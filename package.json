@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "seed": "node db/seed.js",
-    "start": "node server.js",
+    "start": "node db/seed.js && node server.js",
     "dev": "node --watch server.js"
   },
   "engines": {
