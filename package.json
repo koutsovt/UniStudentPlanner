@@ -1,0 +1,22 @@
+{
+  "name": "unistudent-poc",
+  "version": "0.1.0",
+  "description": "University Student Agent PoC — planning, scheduling, time allocation",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "seed": "node db/seed.js",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fastify/static": "^7.0.4",
+    "@fastify/websocket": "^10.0.1",
+    "@openrouter/sdk": "^0.12.20",
+    "better-sqlite3": "^11.3.0",
+    "fastify": "^4.28.1"
+  }
+}
